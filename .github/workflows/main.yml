@@ -21,7 +21,7 @@ jobs:
         sleep 10
     
     - name: Build docker image
-      run: cd tests && ./ci.sh -b -c rst
+      run: cd tests && ./ci.sh -b -c rst,bit,dbg
 
     - name: Clean up intermediaries
       run: |
