@@ -1,7 +1,7 @@
 name: Continuous Integration Test
 
 on:
-  pull_request:
+  push:
     branches:
     - feature/githubActions
 
