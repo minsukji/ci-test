@@ -199,7 +199,6 @@ export SMONTH=10
 export SDAY=03
 export SHOUR=00
 export FHMAX=${FHMAX:-`expr $DAYS \* 24`}
-export NFHOUT=$FHMAX
 export DT_ATMOS=1800
 export FHCYC=24
 
